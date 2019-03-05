@@ -17,6 +17,13 @@
     "prettify": "prettier \".vscode/**/*\" \"src/**/*\" \"tests/**/*\" \"./*.{md,json}\" -c --write ",
     "test": "jest"
   },
+  "keywords": [
+    "vue",
+    "vue-types",
+    "babel-plugin",
+    "remove",
+    "props"
+  ],
   "peerDependencies": {
     "@babel/core": "^7"
   },
