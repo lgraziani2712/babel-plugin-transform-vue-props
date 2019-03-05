@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-plugin-transform-vue-props Mixed props With defaults 1`] = `
+"export default {
+  props: {
+    name: {
+      default: 'lolo'
+    },
+    value: null
+  }
+};"
+`;
+
+exports[`babel-plugin-transform-vue-props Mixed props Without defaults 1`] = `
+"export default {
+  props: [\\"name\\", \\"value\\"]
+};"
+`;
+
+exports[`babel-plugin-transform-vue-props Normal props With defaults 1`] = `
+"export default {
+  props: {
+    name: {
+      default: 'lolo'
+    },
+    value: {
+      default: 1
+    }
+  }
+};"
+`;
+
+exports[`babel-plugin-transform-vue-props Normal props Without defaults 1`] = `
+"export default {
+  props: [\\"name\\", \\"value\\"]
+};"
+`;
+
+exports[`babel-plugin-transform-vue-props Vue-types props With defaults 1`] = `
+"export default {
+  props: {
+    name: {
+      default: 'lolo'
+    },
+    value: null
+  }
+};"
+`;
+
+exports[`babel-plugin-transform-vue-props Vue-types props Without defaults 1`] = `
+"export default {
+  props: [\\"name\\", \\"value\\"]
+};"
+`;

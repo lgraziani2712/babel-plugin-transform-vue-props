@@ -1,0 +1,33 @@
+{
+  "name": "babel-plugin-transform-vue-props",
+  "version": "1.0.0",
+  "description": "Transforms vue props to its possible minimal structure. Removes vue-types as dep",
+  "main": "./src/index.js",
+  "files": [
+    "src",
+    "./*.md",
+    "LICENSE"
+  ],
+  "repository": "https://github.com/lgraziani2712/babel-plugin-transform-vue-props",
+  "author": "Luciano Graziani <@lgraziani2712>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint src tests .eslintrc.js --cache --fix",
+    "prettify": "prettier \".vscode/**/*\" \"src/**/*\" \"tests/**/*\" \"./*.{md,json}\" -c --write ",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.3.4",
+    "@dimax-ar/eslint-config-dimax": "3.1.0",
+    "@types/babel__core": "7.1.0",
+    "eslint": "5.15.1",
+    "jest": "24.1.0",
+    "prettier": "1.16.4",
+    "vue-types": "1.5.0"
+  }
+}
